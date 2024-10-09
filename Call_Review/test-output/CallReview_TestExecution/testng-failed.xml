@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CallReview_TestExecution]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="CallReview.VerifyServiceAgreementCreation">
+        <methods>
+          <include name="UserAbleToAddTheProducts"/>
+          <include name="UserAbleToUpdateTheOpportunity"/>
+          <include name="OrderTypevalueisNew"/>
+          <include name="missingInformationNotificationWhenAnyInformationIsMissed"/>
+          <include name="OrderTypeValueisSetToNew"/>
+          <include name="UserAbleToCreateOpportunity"/>
+          <include name="LoadConfig"/>
+          <include name="OrderTypeValueIsSetToChangeOrder"/>
+        </methods>
+      </class> <!-- CallReview.VerifyServiceAgreementCreation -->
+      <class name="CallReview.Service_Agreement_flow">
+        <methods>
+          <include name="OpportunitymustbeClosedWon"/>
+          <include name="YouCannotProcessNewOpportunitywithCurrentServiceAgreement"/>
+          <include name="NotificationOnOpportunityisProceeded"/>
+          <include name="MustHaveBillToAccountToProcessTheOpportunity"/>
+          <include name="missingInformation"/>
+          <include name="LoadConfig"/>
+        </methods>
+      </class> <!-- CallReview.Service_Agreement_flow -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [CallReview_TestExecution] -->
