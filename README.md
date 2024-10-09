@@ -1,2 +1,0 @@
-# DKrepo
-Dark Night repo
